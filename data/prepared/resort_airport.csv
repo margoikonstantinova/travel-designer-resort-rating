@@ -1,0 +1,33 @@
+﻿resort_id,name_ru,nearest_scheduled_airport,nearest_airport_iata,nearest_airport_distance_km,nearest_airport_municipality
+R001,Роза Хутор,Sochi International Airport,AER,37.3,Sochi
+R002,Красная Поляна,Sochi International Airport,AER,35.3,Sochi
+R003,Газпром Поляна,Sochi International Airport,AER,40.0,Sochi
+R004,Шерегеш,Spichenkovo Airport,NOZ,119.2,Novokuznetsk
+R005,Архыз,Sochi International Airport,AER,99.4,Sochi
+R006,Домбай,Sochi International Airport,AER,138.0,Sochi
+R007,Эльбрус,Nalchik Airport,NAL,98.5,Nalchik
+R008,Чегет,Nalchik Airport,NAL,95.9,Nalchik
+R009,Мамисон,Vladikavkaz Beslan International Airport,OGZ,86.0,Beslan
+R010,Цей,Vladikavkaz Beslan International Airport,OGZ,73.7,Beslan
+R011,Манжерок,Barnaul Gherman Titov International Airport,BAX,230.2,Barnaul
+R012,Телецкий,Spichenkovo Airport,NOZ,232.3,Novokuznetsk
+R013,Большой Вудъявр,Emperor Nicholas II Murmansk Airport,MMK,137.1,Murmansk
+R014,Кукисвумчорр,Emperor Nicholas II Murmansk Airport,MMK,130.5,Murmansk
+R015,КолаСпортЛэнд,Emperor Nicholas II Murmansk Airport,MMK,136.7,Murmansk
+R016,Горный воздух,Yuzhno-Sakhalinsk International Airport,UUS,9.5,Yuzhno-Sakhalinsk
+R017,Холдоми,Komsomolsk-on-Amur Airport,KXK,44.9,Komsomolsk-on-Amur
+R018,Морозная гора,Yelizovo Airport,PKC,11.2,Petropavlovsk-Kamchatsky
+R019,Бобровый лог,Krasnoyarsk Cheremshanka Airport,KCY,28.6,Krasnoyarsk
+R020,Соболиная гора,Irkutsk International Airport,IKT,87.2,Irkutsk
+R021,Гора Белая,Koltsovo Airport,SVX,121.7,Yekaterinburg
+R022,Евразия,Kurchatov Chelyabinsk International Airport,CEK,133.5,Chelyabinsk
+R023,Аджигардак,Ufa International Airport,UFA,101.1,Ufa
+R024,Солнечная долина,Kurchatov Chelyabinsk International Airport,CEK,102.0,Chelyabinsk
+R025,Завьялиха,Magnitogorsk International Airport,MQF,155.3,Magnitogorsk
+R026,Абзаково,Magnitogorsk International Airport,MQF,45.8,Magnitogorsk
+R027,Мраткино,Magnitogorsk International Airport,MQF,70.0,Magnitogorsk
+R028,Губаха,Perm International Airport,PEE,139.2,Perm
+R029,Игора,Pulkovo Airport,LED,79.5,St. Petersburg
+R030,Сорочаны,Sheremetyevo International Airport,SVO,35.0,Moscow
+R031,Красная Глинка,Kurumoch International Airport,KUF,12.8,Samara
+R032,Гладенькая,Abakan International Airport,ABA,88.4,Abakan

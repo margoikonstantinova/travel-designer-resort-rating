@@ -1,0 +1,43 @@
+﻿resort_id,name_ru,source_url,adult_price_min_rub,adult_price_max_rub,child_price_min_rub,child_price_max_rub,price_season,source_confidence,collected_at,price_note
+R001,Роза Хутор,https://go.rosakhutor.ru/presale,7920,192000,4000,96000,2026/27,official_single_source,2026-11-03
+R002,Красная Поляна,https://krasnayapolyanaresort.ru/ski-pass,3900,5250,2300,3050,2025/26,not_specified,2026-11-06,разовые 26/27 не публикуются (проверено 05.11; только сезонный абонемент 52500/24000); вписана последняя известная разовая 25/26 из сентябрьского prices_monthly.json оригинального пакета (агрегатор skipasskp.ru; secondary; сбор ~09.2026)
+R003,Газпром Поляна,https://market.polyanaski.ru/season-ski-pass/,4100,4100,2550,2550,2025/26,not_specified,2026-11-06,разовые 26/27 не публикуются (проверено 05.11; только сезонные абонементы 30400-60800/10800-22800); вписана последняя известная разовая 25/26 из сентябрьского prices_monthly.json оригинального пакета (агрегатор ski.ru; secondary; сбор ~09.2026)
+R004,Шерегеш,https://sheregesh.ru/,150,45000,0,6300,2025/26,not_specified,2026-11-03
+R005,Архыз,https://vk.ru/wall-63157637_47109?reply=47115&thread=47111,2550,4350,1700,2600,2025/26,not_specified,2026-11-06,разовые 26/27 не публикуются (проверено 05.11 в ВК; только сезонный абонемент от 25000); вписана последняя известная разовая 25/26 из сентябрьского prices_monthly.json оригинального пакета (агрегатор volodimire.pro; secondary; сбор ~09.2026)
+R006,Домбай,"https://dombai-kd.ru/
+https://www.championat.com/lifestyle/article-5820360-gornolyzhnyj-kurort-dombaj-2024-2025-ceny-na-ski-passy-trassy-so-shemoj-prozhivanie-foto-kak-dobratsya-chto-posmotret.html",4400,12750,2650,5300,2025/26,not_specified,2026-11-03
+R007,Эльбрус,https://resort-elbrus.ru/,6000,132000,3600,79200,2026/27,not_specified,2026-11-03
+R008,Чегет,https://vk.ru/wall-68653224_38684,2500,2945,1500,1850,2025/26,not_specified,2026-11-03
+R009,Мамисон,https://mamison-resort.ru/,4800,132000,2900,79200,2026/27,not_specified,2026-11-03
+R010,Цей,"https://tseyski.ru/
+https://dtf.ru/travel/4725937-gornolyzhnyy-kurort-tsey",1200,1200,700,700,2025/26,not_specified,2026-11-03
+R011,Манжерок,https://shop.mglk.ru/ru/Products/Tickets/Quantity/881/1/1,1700,10000,1200,7000,2025/26,not_specified,2026-11-06,разовые 26/27 не публикуются (проверено 05.11; только сезонный абонемент 55000/33000); вписана последняя известная разовая 25/26 по агрегатору ski.ru (статья 35417; мин 1700 = вечерний скипасс на старте сезона; сбор 06.11)
+R012,Горнолыжный курорт Телецкий,,,,,,,not_collected,2026-11-03
+R013,Большой Вудъявр,https://bigwood.ru/ski-pass/,1100,66300,800,31000,2026/27,not_specified,2026-11-03
+R014,Кукисвумчорр,"https://kukisvumchorr.ru/
+https://yandex.ru/maps/org/kukisvumchorr/1247099578/reviews/?ll=33.711518%2C67.664719&photos%5Bid%5D=17637863_2a0000019e236c8b8c1d2b9452a0492e1d26&photos%5Boid%5D=17637863_2a0000019e236c8b8c1d2b9452a0492e1d26&reviews%5Baspect%5D=3502067008&z=16",200,7000,200,7000,2025/26,not_specified,2026-11-03
+R015,КолаСпортЛэнд,,,,,,,not_collected,2026-11-03
+R016,Горный воздух,https://ski-gv.ru/about-us/tarif/,207,405,0,150,2025/26,not_specified,2026-11-03
+R017,Холдоми,"https://holdomi.ru/glk/ski-pass
+https://vk.ru/holdomi",350,10900,0,10900,2026/27,not_specified,2026-11-03
+R018,Морозная гора,https://moroznaya.gosuslugi.ru/uslugi/,170,2000,0,140,2025/26,not_specified,2026-11-03
+R019,Бобровый лог,https://bobrovylog.ru/news/na-start-vnimanie-razbiraem-ski-passy/,2100,3450,950,1450,2025/26,not_specified,2026-11-06,разовые 26/27 не публикуются (проверено 05.11; сезонный абонемент по акции 54500); вписана последняя известная разовая 25/26 по агрегатору ski.ru (статья 35820; абонементы 50к+ в источнике не берутся; сбор 06.11)
+R020,Соболиная гора,https://baikalski.net/skating/cost/,900,8800,600,1350,2025/26,not_specified,2026-11-03
+R021,Гора Белая,"https://www.gorabelaya.ru/
+https://travel.yandex.ru/journal/gornolyzhnyy-kompleks-gora-belaya/",950,2400,950,2400,2025/26,not_specified,2026-11-03
+R022,Евразия,https://euroasia.su/cable-car-fares/,250,18500,0,11700,2026/27,official_single_source,2026-11-05
+R023,Аджигардак,,,,,,,not_collected,2026-11-03
+R024,Солнечная долина,"https://dolina.su/
+https://vk.ru/sunny.valley?trackcode=0xabcdefomdfZrMZkF8PJ5B0JGypMYwpBTNHIio0wDhKLR1j-c5fd1ls5GkpCKhsakjjLYhg6lXyU-NrpihIK4Bj-XfyWvhKhz7yJqZ_qGD4Ieox8yimf7M26DeVV4gu_Wn9K47-tsYTpGFk5Q",5200,44000,3300,44000,2025/26,not_specified,2026-11-06,разовые 26/27 не публикуются (проверено 05.11; только сезонный абонемент 22500); вписана последняя известняя разовая 25/26 по агрегатору ski.ru (мин 5200 = разовый; макс 44000 в источнике смешан с абонементами и в признаке не участвует; сбор 06.11)
+R025,Завьялиха,"https://zavyaliha.su/
+https://travel.yandex.ru/journal/gornolyzhnyy-kurort-zavyaliha/",1700,2600,1500,8400,2025/26,not_specified,2026-11-03
+R026,Абзаково,"https://abzakovo.com/
+https://www.championat.com/lifestyle/article-6288304-gornolyzhnyj-kurort-abzakovo-2025-2026-ceny-na-ski-passy-trassy-so-shemoj-prozhivanie-foto-kak-dobratsya.html",2600,9500,2600,9500,2025/26,not_specified,2026-11-03
+R027,Мраткино,"https://vk.ru/glk_mratkino
+https://belortravel.ru/glc-mratkino-beloretsk-gid/",700,2700,700,2700,2025/26,not_specified,2026-11-03
+R028,Губаха,"https://go-gu.ru/
+https://vk.ru/gubahasport?w=wall-87722708_74274",350,1250,350,1250,2026/27,not_specified,2026-11-03
+R029,Игора,https://igora.ru/price/,360,5100,400,4100,2025/26,not_specified,2026-11-03
+R030,Сорочаны,https://sorochany.ru/tariffs/view/skipass,200,380,0,220,2026/27,official_single_source,2026-11-05
+R031,Красная Глинка,https://glksok.ru/,170,27000,0,1000,2025/26,not_specified,2026-11-03
+R032,Гладенькая,https://ski-gladenkaya.ru/ski/sky_pass,500,44500,500,44500,2026/27,not_specified,2026-11-03

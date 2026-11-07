@@ -1,0 +1,13 @@
+# окружение
+.venv/
+
+# кэш python
+__pycache__/
+*.pyc
+
+# jupyter
+.ipynb_checkpoints/
+
+# служебное ОС
+.DS_Store
+Thumbs.db
