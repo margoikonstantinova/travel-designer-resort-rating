@@ -37,7 +37,7 @@ prepared-таблицы -> витрина `data/mart/resort_features.csv` ->
 
 ## Дашборд
 
-Интерактивная версия рейтинга - [<Yandex DataLens>](https://datalens.yandex/p1ew7vmw49jc8?_share_link=public)
+Интерактивная версия рейтинга - Yandex DataLens - https://datalens.yandex/p1ew7vmw49jc8?_share_link=public
 
 Четыре вкладки: таблица рейтинга с фильтром по региону, профиль курорта с картой, сравнение двух курортов и качество данных. Дашборд ничего не считает
 сам - источник единственный, `data/mart/resort_scores.csv` (32 x 60),
