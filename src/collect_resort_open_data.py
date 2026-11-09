@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Collect open data for the Travel Designer ski resort project.
+"""+ Collect open data for the Travel Designer ski resort project.
 
 The script uses four public sources:
 

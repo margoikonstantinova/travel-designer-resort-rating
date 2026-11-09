@@ -1,11 +1,10 @@
-"""Витринная таблица resort_weather_monthly — помесячный климат.
+"""+Витринная таблица resort_weather_monthly — помесячный климат.
 
 Источник: data/raw/resort_open_data_2026-11-02.json, секция weatherMonthly
 (32 курорта x 6 месяцев = 192 строки). Усреднение по годам выполнено при
 агрегации (years_count = из скольких сезонов усреднено).
 Выход: data/prepared/resort_weather_monthly.csv — одна строка = курорт и месяц
-(ноябрь-апрель). Ветровых колонок нет — порывы у архива Open-Meteo
-систематически завышены (решение аналитика 03.11, см. fixNotes слоя).
+(ноябрь-апрель). 
 """
 import json
 from pathlib import Path

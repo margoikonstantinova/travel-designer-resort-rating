@@ -1,7 +1,8 @@
-"""Справочник курортов — таблица resorts из ТЗ (раздел 2).
+"""+Справочник курортов.
 
 Источник: data/raw/resorts.json (матрица: первая строка — названия полей).
 Выход: data/prepared/resorts.csv — одна строка = один курорт.
+
 """
 import json
 from pathlib import Path

@@ -1,4 +1,4 @@
-"""Таблица №3 ТЗ: resort_osm — счётчики объектов OpenStreetMap вокруг курорта.
+"""+resort_osm — счётчики объектов OpenStreetMap вокруг курорта.
 
 Источник: data/raw/resort_open_data_2026-11-02.json (полный прогон v2 на
 финальных координатах из resort_checks; радиус 6 км).
