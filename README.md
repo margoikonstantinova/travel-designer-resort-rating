@@ -36,17 +36,17 @@ prepared-таблицы -> витрина `data/mart/resort_features.csv` ->
   лидеров; максимальный сдвиг внутри топ-10 - 2 места.
 
 ## Дашборд
-
-Интерактивная версия рейтинга - Yandex DataLens - https://datalens.yandex/p1ew7vmw49jc8?_share_link=public *в процессе редактирования*
+**Интерактивная версия рейтинга** — [Yandex DataLens](https://datalens.yandex/jvget59m6cgo2?_embedded=1&_no_controls=1&_theme=light)
 
 Четыре вкладки: 
 1. Таблица рейтинга с фильтром по региону
 2. Профиль курорта с картой
 3. Сравнение двух курортов
 4. Качество данных. 
-Дашборд ничего не считает сам - источники data/mart/resort_scores.csv и его перевертыш data/mart/resort_scores_long.csv для вкладки профиля, оба пересобираются конвейером.
+* Дашборд ничего не считает сам - источники data/mart/resort_scores.csv и его перевертыш data/mart/resort_scores_long.csv для вкладки профиля, оба пересобираются конвейером.
 
-![Экран "Рейтинг"](assets/dashboard_rating.png)
+![Экран "Рейтинг"](assets/dashboard_rating_1.png)
+![Экран "Рейтинг"](assets/dashboard_rating_2.png)
 
 ## Структура проекта
 
