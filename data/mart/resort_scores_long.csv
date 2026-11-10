@@ -1,0 +1,417 @@
+﻿name_ru,indicator,score,weight,component,sort
+Роза Хутор,trips_score,95.84,25,component_demand,1
+Роза Хутор,growth_score,42.32,10,component_demand,2
+Роза Хутор,stay_score,83.43,5,component_demand,3
+Роза Хутор,trails_km_score,100.0,10,component_infrastructure,4
+Роза Хутор,lifts_score,100.0,7,component_infrastructure,5
+Роза Хутор,lodging_score,80.65,5,component_infrastructure,6
+Роза Хутор,food_score,82.75,3,component_infrastructure,7
+Роза Хутор,snow_days_score,9.54,8,component_winter,8
+Роза Хутор,frost_days_score,4.68,6,component_winter,9
+Роза Хутор,snowfall_score,31.8,6,component_winter,10
+Роза Хутор,airport_score,58.27,8,component_accessibility,11
+Роза Хутор,transport_score,62.45,2,component_accessibility,12
+Роза Хутор,price_score,0.0,5,component_price,13
+Красная Поляна,trips_score,95.84,25,component_demand,1
+Красная Поляна,growth_score,42.32,10,component_demand,2
+Красная Поляна,stay_score,83.43,5,component_demand,3
+Красная Поляна,trails_km_score,86.51,10,component_infrastructure,4
+Красная Поляна,lifts_score,97.22,7,component_infrastructure,5
+Красная Поляна,lodging_score,100.0,5,component_infrastructure,6
+Красная Поляна,food_score,100.0,3,component_infrastructure,7
+Красная Поляна,snow_days_score,0.0,8,component_winter,8
+Красная Поляна,frost_days_score,0.0,6,component_winter,9
+Красная Поляна,snowfall_score,7.29,6,component_winter,10
+Красная Поляна,airport_score,60.0,8,component_accessibility,11
+Красная Поляна,transport_score,72.09,2,component_accessibility,12
+Красная Поляна,price_score,17.89,5,component_price,13
+Газпром Поляна,trips_score,95.84,25,component_demand,1
+Газпром Поляна,growth_score,42.32,10,component_demand,2
+Газпром Поляна,stay_score,83.43,5,component_demand,3
+Газпром Поляна,trails_km_score,80.57,10,component_infrastructure,4
+Газпром Поляна,lifts_score,90.69,7,component_infrastructure,5
+Газпром Поляна,lodging_score,96.04,5,component_infrastructure,6
+Газпром Поляна,food_score,91.54,3,component_infrastructure,7
+Газпром Поляна,snow_days_score,37.65,8,component_winter,8
+Газпром Поляна,frost_days_score,27.18,6,component_winter,9
+Газпром Поляна,snowfall_score,69.09,6,component_winter,10
+Газпром Поляна,airport_score,56.07,8,component_accessibility,11
+Газпром Поляна,transport_score,64.5,2,component_accessibility,12
+Газпром Поляна,price_score,16.62,5,component_price,13
+Шерегеш,trips_score,39.25,25,component_demand,1
+Шерегеш,growth_score,24.74,10,component_demand,2
+Шерегеш,stay_score,63.47,5,component_demand,3
+Шерегеш,trails_km_score,91.03,10,component_infrastructure,4
+Шерегеш,lifts_score,71.38,7,component_infrastructure,5
+Шерегеш,lodging_score,98.52,5,component_infrastructure,6
+Шерегеш,food_score,63.63,3,component_infrastructure,7
+Шерегеш,snow_days_score,83.62,8,component_winter,8
+Шерегеш,frost_days_score,83.36,6,component_winter,9
+Шерегеш,snowfall_score,64.84,6,component_winter,10
+Шерегеш,airport_score,21.39,8,component_accessibility,11
+Шерегеш,transport_score,65.74,2,component_accessibility,12
+Шерегеш,price_score,100.0,5,component_price,13
+Архыз,trips_score,39.87,25,component_demand,1
+Архыз,growth_score,100.0,10,component_demand,2
+Архыз,stay_score,12.47,5,component_demand,3
+Архыз,trails_km_score,83.58,10,component_infrastructure,4
+Архыз,lifts_score,55.9,7,component_infrastructure,5
+Архыз,lodging_score,94.57,5,component_infrastructure,6
+Архыз,food_score,72.6,3,component_infrastructure,7
+Архыз,snow_days_score,47.19,8,component_winter,8
+Архыз,frost_days_score,33.03,6,component_winter,9
+Архыз,snowfall_score,65.58,6,component_winter,10
+Архыз,airport_score,27.19,8,component_accessibility,11
+Архыз,transport_score,48.3,2,component_accessibility,12
+Архыз,price_score,28.61,5,component_price,13
+Домбай,trips_score,39.87,25,component_demand,1
+Домбай,growth_score,100.0,10,component_demand,2
+Домбай,stay_score,12.47,5,component_demand,3
+Домбай,trails_km_score,51.0,10,component_infrastructure,4
+Домбай,lifts_score,55.9,7,component_infrastructure,5
+Домбай,lodging_score,80.44,5,component_infrastructure,6
+Домбай,food_score,64.95,3,component_infrastructure,7
+Домбай,snow_days_score,95.11,8,component_winter,8
+Домбай,frost_days_score,51.24,6,component_winter,9
+Домбай,snowfall_score,100.0,6,component_winter,10
+Домбай,airport_score,16.7,8,component_accessibility,11
+Домбай,transport_score,29.39,2,component_accessibility,12
+Домбай,price_score,14.84,5,component_price,13
+Эльбрус,trips_score,11.54,25,component_demand,1
+Эльбрус,growth_score,16.22,10,component_demand,2
+Эльбрус,stay_score,100.0,5,component_demand,3
+Эльбрус,trails_km_score,61.13,10,component_infrastructure,4
+Эльбрус,lifts_score,55.9,7,component_infrastructure,5
+Эльбрус,lodging_score,76.2,5,component_infrastructure,6
+Эльбрус,food_score,71.23,3,component_infrastructure,7
+Эльбрус,snow_days_score,90.71,8,component_winter,8
+Эльбрус,frost_days_score,95.45,6,component_winter,9
+Эльбрус,snowfall_score,91.28,6,component_winter,10
+Эльбрус,airport_score,27.48,8,component_accessibility,11
+Эльбрус,transport_score,49.94,2,component_accessibility,12
+Эльбрус,price_score,7.01,5,component_price,13
+Чегет,trips_score,11.54,25,component_demand,1
+Чегет,growth_score,16.22,10,component_demand,2
+Чегет,stay_score,100.0,5,component_demand,3
+Чегет,trails_km_score,56.31,10,component_infrastructure,4
+Чегет,lifts_score,51.47,7,component_infrastructure,5
+Чегет,lodging_score,82.05,5,component_infrastructure,6
+Чегет,food_score,75.68,3,component_infrastructure,7
+Чегет,snow_days_score,88.26,8,component_winter,8
+Чегет,frost_days_score,87.39,6,component_winter,9
+Чегет,snowfall_score,88.71,6,component_winter,10
+Чегет,airport_score,28.33,8,component_accessibility,11
+Чегет,transport_score,49.14,2,component_accessibility,12
+Чегет,price_score,29.11,5,component_price,13
+Мамисон,trips_score,0.0,25,component_demand,1
+Мамисон,growth_score,0.0,10,component_demand,2
+Мамисон,stay_score,46.15,5,component_demand,3
+Мамисон,trails_km_score,58.91,10,component_infrastructure,4
+Мамисон,lifts_score,11.65,7,component_infrastructure,5
+Мамисон,lodging_score,0.0,5,component_infrastructure,6
+Мамисон,food_score,27.3,3,component_infrastructure,7
+Мамисон,snow_days_score,67.48,8,component_winter,8
+Мамисон,frost_days_score,62.03,6,component_winter,9
+Мамисон,snowfall_score,64.71,6,component_winter,10
+Мамисон,airport_score,31.81,8,component_accessibility,11
+Мамисон,transport_score,22.74,2,component_accessibility,12
+Мамисон,price_score,12.64,5,component_price,13
+Цей,trips_score,0.0,25,component_demand,1
+Цей,growth_score,0.0,10,component_demand,2
+Цей,stay_score,46.15,5,component_demand,3
+Цей,trails_km_score,0.0,10,component_infrastructure,4
+Цей,lifts_score,0.0,7,component_infrastructure,5
+Цей,lodging_score,37.55,5,component_infrastructure,6
+Цей,food_score,33.82,3,component_infrastructure,7
+Цей,snow_days_score,83.62,8,component_winter,8
+Цей,frost_days_score,60.47,6,component_winter,9
+Цей,snowfall_score,69.25,6,component_winter,10
+Цей,airport_score,36.73,8,component_accessibility,11
+Цей,transport_score,26.4,2,component_accessibility,12
+Цей,price_score,47.64,5,component_price,13
+Манжерок,trips_score,30.99,25,component_demand,1
+Манжерок,growth_score,14.77,10,component_demand,2
+Манжерок,stay_score,31.34,5,component_demand,3
+Манжерок,trails_km_score,73.06,10,component_infrastructure,4
+Манжерок,lifts_score,53.77,7,component_infrastructure,5
+Манжерок,lodging_score,70.28,5,component_infrastructure,6
+Манжерок,food_score,59.94,3,component_infrastructure,7
+Манжерок,snow_days_score,49.14,8,component_winter,8
+Манжерок,frost_days_score,65.41,6,component_winter,9
+Манжерок,snowfall_score,13.0,6,component_winter,10
+Манжерок,airport_score,0.29,8,component_accessibility,11
+Манжерок,transport_score,22.74,2,component_accessibility,12
+Манжерок,price_score,38.85,5,component_price,13
+Телецкий,trips_score,30.99,25,component_demand,1
+Телецкий,growth_score,14.77,10,component_demand,2
+Телецкий,stay_score,31.34,5,component_demand,3
+Телецкий,trails_km_score,37.28,10,component_infrastructure,4
+Телецкий,lifts_score,19.91,7,component_infrastructure,5
+Телецкий,lodging_score,39.68,5,component_infrastructure,6
+Телецкий,food_score,35.17,3,component_infrastructure,7
+Телецкий,snow_days_score,78.97,8,component_winter,8
+Телецкий,frost_days_score,84.27,6,component_winter,9
+Телецкий,snowfall_score,64.63,6,component_winter,10
+Телецкий,airport_score,0.0,8,component_accessibility,11
+Телецкий,transport_score,26.4,2,component_accessibility,12
+Телецкий,price_score,50.0,5,component_price,13
+Большой Вудъявр,trips_score,25.55,25,component_demand,1
+Большой Вудъявр,growth_score,23.72,10,component_demand,2
+Большой Вудъявр,stay_score,31.51,5,component_demand,3
+Большой Вудъявр,trails_km_score,60.24,10,component_infrastructure,4
+Большой Вудъявр,lifts_score,51.47,7,component_infrastructure,5
+Большой Вудъявр,lodging_score,46.32,5,component_infrastructure,6
+Большой Вудъявр,food_score,58.26,3,component_infrastructure,7
+Большой Вудъявр,snow_days_score,100.0,8,component_winter,8
+Большой Вудъявр,frost_days_score,100.0,6,component_winter,9
+Большой Вудъявр,snowfall_score,50.1,6,component_winter,10
+Большой Вудъявр,airport_score,16.91,8,component_accessibility,11
+Большой Вудъявр,transport_score,77.26,2,component_accessibility,12
+Большой Вудъявр,price_score,49.83,5,component_price,13
+Кукисвумчорр,trips_score,25.55,25,component_demand,1
+Кукисвумчорр,growth_score,23.72,10,component_demand,2
+Кукисвумчорр,stay_score,31.51,5,component_demand,3
+Кукисвумчорр,trails_km_score,32.32,10,component_infrastructure,4
+Кукисвумчорр,lifts_score,31.56,7,component_infrastructure,5
+Кукисвумчорр,lodging_score,46.32,5,component_infrastructure,6
+Кукисвумчорр,food_score,51.62,3,component_infrastructure,7
+Кукисвумчорр,snow_days_score,97.07,8,component_winter,8
+Кукисвумчорр,frost_days_score,91.16,6,component_winter,9
+Кукисвумчорр,snowfall_score,40.33,6,component_winter,10
+Кукисвумчорр,airport_score,18.49,8,component_accessibility,11
+Кукисвумчорр,transport_score,65.74,2,component_accessibility,12
+Кукисвумчорр,price_score,92.78,5,component_price,13
+КолаСпортЛэнд,trips_score,25.55,25,component_demand,1
+КолаСпортЛэнд,growth_score,23.72,10,component_demand,2
+КолаСпортЛэнд,stay_score,31.51,5,component_demand,3
+КолаСпортЛэнд,trails_km_score,60.24,10,component_infrastructure,4
+КолаСпортЛэнд,lifts_score,51.47,7,component_infrastructure,5
+КолаСпортЛэнд,lodging_score,46.32,5,component_infrastructure,6
+КолаСпортЛэнд,food_score,59.53,3,component_infrastructure,7
+КолаСпортЛэнд,snow_days_score,87.78,8,component_winter,8
+КолаСпортЛэнд,frost_days_score,85.7,6,component_winter,9
+КолаСпортЛэнд,snowfall_score,40.99,6,component_winter,10
+КолаСпортЛэнд,airport_score,17.0,8,component_accessibility,11
+КолаСпортЛэнд,transport_score,76.96,2,component_accessibility,12
+КолаСпортЛэнд,price_score,50.0,5,component_price,13
+Горный воздух,trips_score,11.97,25,component_demand,1
+Горный воздух,growth_score,90.54,10,component_demand,2
+Горный воздух,stay_score,41.93,5,component_demand,3
+Горный воздух,trails_km_score,67.85,10,component_infrastructure,4
+Горный воздух,lifts_score,39.82,7,component_infrastructure,5
+Горный воздух,lodging_score,71.36,5,component_infrastructure,6
+Горный воздух,food_score,90.43,3,component_infrastructure,7
+Горный воздух,snow_days_score,65.77,8,component_winter,8
+Горный воздух,frost_days_score,82.83,6,component_winter,9
+Горный воздух,snowfall_score,53.66,6,component_winter,10
+Горный воздух,airport_score,100.0,8,component_accessibility,11
+Горный воздух,transport_score,91.84,2,component_accessibility,12
+Горный воздух,price_score,91.91,5,component_price,13
+Холдоми,trips_score,36.68,25,component_demand,1
+Холдоми,growth_score,15.53,10,component_demand,2
+Холдоми,stay_score,21.49,5,component_demand,3
+Холдоми,trails_km_score,47.74,10,component_infrastructure,4
+Холдоми,lifts_score,19.91,7,component_infrastructure,5
+Холдоми,lodging_score,41.58,5,component_infrastructure,6
+Холдоми,food_score,0.0,3,component_infrastructure,7
+Холдоми,snow_days_score,41.81,8,component_winter,8
+Холдоми,frost_days_score,85.96,6,component_winter,9
+Холдоми,snowfall_score,30.89,6,component_winter,10
+Холдоми,airport_score,52.43,8,component_accessibility,11
+Холдоми,transport_score,37.77,2,component_accessibility,12
+Холдоми,price_score,78.7,5,component_price,13
+Морозная гора,trips_score,20.28,25,component_demand,1
+Морозная гора,growth_score,100.0,10,component_demand,2
+Морозная гора,stay_score,14.97,5,component_demand,3
+Морозная гора,trails_km_score,23.06,10,component_infrastructure,4
+Морозная гора,lifts_score,26.32,7,component_infrastructure,5
+Морозная гора,lodging_score,19.84,5,component_infrastructure,6
+Морозная гора,food_score,14.56,3,component_infrastructure,7
+Морозная гора,snow_days_score,92.42,8,component_winter,8
+Морозная гора,frost_days_score,88.69,6,component_winter,9
+Морозная гора,snowfall_score,84.18,6,component_winter,10
+Морозная гора,airport_score,95.16,8,component_accessibility,11
+Морозная гора,transport_score,44.42,2,component_accessibility,12
+Морозная гора,price_score,96.86,5,component_price,13
+Бобровый лог,trips_score,47.69,25,component_demand,1
+Бобровый лог,growth_score,45.33,10,component_demand,2
+Бобровый лог,stay_score,44.39,5,component_demand,3
+Бобровый лог,trails_km_score,37.09,10,component_infrastructure,4
+Бобровый лог,lifts_score,39.82,7,component_infrastructure,5
+Бобровый лог,lodging_score,65.21,5,component_infrastructure,6
+Бобровый лог,food_score,76.61,3,component_infrastructure,7
+Бобровый лог,snow_days_score,71.88,8,component_winter,8
+Бобровый лог,frost_days_score,76.72,6,component_winter,9
+Бобровый лог,snowfall_score,12.34,6,component_winter,10
+Бобровый лог,airport_score,66.58,8,component_accessibility,11
+Бобровый лог,transport_score,100.0,2,component_accessibility,12
+Бобровый лог,price_score,33.51,5,component_price,13
+Соболиная гора,trips_score,42.21,25,component_demand,1
+Соболиная гора,growth_score,36.16,10,component_demand,2
+Соболиная гора,stay_score,54.15,5,component_demand,3
+Соболиная гора,trails_km_score,39.09,10,component_infrastructure,4
+Соболиная гора,lifts_score,39.82,7,component_infrastructure,5
+Соболиная гора,lodging_score,56.62,5,component_infrastructure,6
+Соболиная гора,food_score,49.74,3,component_infrastructure,7
+Соболиная гора,snow_days_score,59.41,8,component_winter,8
+Соболиная гора,frost_days_score,81.53,6,component_winter,9
+Соболиная гора,snowfall_score,17.99,6,component_winter,10
+Соболиная гора,airport_score,31.37,8,component_accessibility,11
+Соболиная гора,transport_score,63.84,2,component_accessibility,12
+Соболиная гора,price_score,54.89,5,component_price,13
+Гора Белая,trips_score,60.62,25,component_demand,1
+Гора Белая,growth_score,64.37,10,component_demand,2
+Гора Белая,stay_score,28.21,5,component_demand,3
+Гора Белая,trails_km_score,19.15,10,component_infrastructure,4
+Гора Белая,lifts_score,26.32,7,component_infrastructure,5
+Гора Белая,lodging_score,25.04,5,component_infrastructure,6
+Гора Белая,food_score,14.56,3,component_infrastructure,7
+Гора Белая,snow_days_score,60.39,8,component_winter,8
+Гора Белая,frost_days_score,80.23,6,component_winter,9
+Гора Белая,snowfall_score,23.98,6,component_winter,10
+Гора Белая,airport_score,20.72,8,component_accessibility,11
+Гора Белая,transport_score,22.74,2,component_accessibility,12
+Гора Белая,price_score,53.53,5,component_price,13
+Евразия,trips_score,47.25,25,component_demand,1
+Евразия,growth_score,59.46,10,component_demand,2
+Евразия,stay_score,42.6,5,component_demand,3
+Евразия,trails_km_score,22.39,10,component_infrastructure,4
+Евразия,lifts_score,11.65,7,component_infrastructure,5
+Евразия,lodging_score,46.32,5,component_infrastructure,6
+Евразия,food_score,42.8,3,component_infrastructure,7
+Евразия,snow_days_score,64.06,8,component_winter,8
+Евразия,frost_days_score,69.31,6,component_winter,9
+Евразия,snowfall_score,25.48,6,component_winter,10
+Евразия,airport_score,17.76,8,component_accessibility,11
+Евразия,transport_score,63.51,2,component_accessibility,12
+Евразия,price_score,87.17,5,component_price,13
+Аджигардак,trips_score,47.25,25,component_demand,1
+Аджигардак,growth_score,59.46,10,component_demand,2
+Аджигардак,stay_score,42.6,5,component_demand,3
+Аджигардак,trails_km_score,46.34,10,component_infrastructure,4
+Аджигардак,lifts_score,43.21,7,component_infrastructure,5
+Аджигардак,lodging_score,12.52,5,component_infrastructure,6
+Аджигардак,food_score,42.8,3,component_infrastructure,7
+Аджигардак,snow_days_score,73.84,8,component_winter,8
+Аджигардак,frost_days_score,64.89,6,component_winter,9
+Аджигардак,snowfall_score,51.53,6,component_winter,10
+Аджигардак,airport_score,26.65,8,component_accessibility,11
+Аджигардак,transport_score,55.24,2,component_accessibility,12
+Аджигардак,price_score,50.0,5,component_price,13
+Солнечная долина,trips_score,47.25,25,component_demand,1
+Солнечная долина,growth_score,59.46,10,component_demand,2
+Солнечная долина,stay_score,42.6,5,component_demand,3
+Солнечная долина,trails_km_score,29.68,10,component_infrastructure,4
+Солнечная долина,lifts_score,48.97,7,component_infrastructure,5
+Солнечная долина,lodging_score,48.91,5,component_infrastructure,6
+Солнечная долина,food_score,30.81,3,component_infrastructure,7
+Солнечная долина,snow_days_score,37.41,8,component_winter,8
+Солнечная долина,frost_days_score,70.22,6,component_winter,9
+Солнечная долина,snowfall_score,0.0,6,component_winter,10
+Солнечная долина,airport_score,26.37,8,component_accessibility,11
+Солнечная долина,transport_score,62.45,2,component_accessibility,12
+Солнечная долина,price_score,10.62,5,component_price,13
+Завьялиха,trips_score,47.25,25,component_demand,1
+Завьялиха,growth_score,59.46,10,component_demand,2
+Завьялиха,stay_score,42.6,5,component_demand,3
+Завьялиха,trails_km_score,38.02,10,component_infrastructure,4
+Завьялиха,lifts_score,31.56,7,component_infrastructure,5
+Завьялиха,lodging_score,19.84,5,component_infrastructure,6
+Завьялиха,food_score,0.0,3,component_infrastructure,7
+Завьялиха,snow_days_score,68.7,8,component_winter,8
+Завьялиха,frost_days_score,73.86,6,component_winter,9
+Завьялиха,snowfall_score,27.44,6,component_winter,10
+Завьялиха,airport_score,12.92,8,component_accessibility,11
+Завьялиха,transport_score,11.37,2,component_accessibility,12
+Завьялиха,price_score,38.85,5,component_price,13
+Абзаково,trips_score,47.92,25,component_demand,1
+Абзаково,growth_score,46.12,10,component_demand,2
+Абзаково,stay_score,71.81,5,component_demand,3
+Абзаково,trails_km_score,41.11,10,component_infrastructure,4
+Абзаково,lifts_score,43.21,7,component_infrastructure,5
+Абзаково,lodging_score,72.69,5,component_infrastructure,6
+Абзаково,food_score,50.38,3,component_infrastructure,7
+Абзаково,snow_days_score,36.92,8,component_winter,8
+Абзаково,frost_days_score,70.09,6,component_winter,9
+Абзаково,snowfall_score,2.52,6,component_winter,10
+Абзаково,airport_score,51.8,8,component_accessibility,11
+Абзаково,transport_score,39.34,2,component_accessibility,12
+Абзаково,price_score,28.12,5,component_price,13
+Мраткино,trips_score,47.92,25,component_demand,1
+Мраткино,growth_score,46.12,10,component_demand,2
+Мраткино,stay_score,71.81,5,component_demand,3
+Мраткино,trails_km_score,51.11,10,component_infrastructure,4
+Мраткино,lifts_score,26.32,7,component_infrastructure,5
+Мраткино,lodging_score,25.04,5,component_infrastructure,6
+Мраткино,food_score,61.87,3,component_infrastructure,7
+Мраткино,snow_days_score,48.9,8,component_winter,8
+Мраткино,frost_days_score,73.47,6,component_winter,9
+Мраткино,snowfall_score,17.88,6,component_winter,10
+Мраткино,airport_score,38.36,8,component_accessibility,11
+Мраткино,transport_score,56.85,2,component_accessibility,12
+Мраткино,price_score,61.23,5,component_price,13
+Губаха,trips_score,42.12,25,component_demand,1
+Губаха,growth_score,45.9,10,component_demand,2
+Губаха,stay_score,42.05,5,component_demand,3
+Губаха,trails_km_score,43.42,10,component_infrastructure,4
+Губаха,lifts_score,46.23,7,component_infrastructure,5
+Губаха,lodging_score,51.17,5,component_infrastructure,6
+Губаха,food_score,52.79,3,component_infrastructure,7
+Губаха,snow_days_score,84.11,8,component_winter,8
+Губаха,frost_days_score,71.39,6,component_winter,9
+Губаха,snowfall_score,47.38,6,component_winter,10
+Губаха,airport_score,16.42,8,component_accessibility,11
+Губаха,transport_score,67.17,2,component_accessibility,12
+Губаха,price_score,78.7,5,component_price,13
+Игора,trips_score,80.43,25,component_demand,1
+Игора,growth_score,48.18,10,component_demand,2
+Игора,stay_score,47.89,5,component_demand,3
+Игора,trails_km_score,17.15,10,component_infrastructure,4
+Игора,lifts_score,46.23,7,component_infrastructure,5
+Игора,lodging_score,66.62,5,component_infrastructure,6
+Игора,food_score,54.94,3,component_infrastructure,7
+Игора,snow_days_score,62.35,8,component_winter,8
+Игора,frost_days_score,58.0,6,component_winter,9
+Игора,snowfall_score,29.44,6,component_winter,10
+Игора,airport_score,34.31,8,component_accessibility,11
+Игора,transport_score,75.38,2,component_accessibility,12
+Игора,price_score,77.99,5,component_price,13
+Сорочаны,trips_score,100.0,25,component_demand,1
+Сорочаны,growth_score,99.1,10,component_demand,2
+Сорочаны,stay_score,55.0,5,component_demand,3
+Сорочаны,trails_km_score,33.66,10,component_infrastructure,4
+Сорочаны,lifts_score,63.12,7,component_infrastructure,5
+Сорочаны,lodging_score,62.02,5,component_infrastructure,6
+Сорочаны,food_score,54.94,3,component_infrastructure,7
+Сорочаны,snow_days_score,66.01,8,component_winter,8
+Сорочаны,frost_days_score,55.92,6,component_winter,9
+Сорочаны,snowfall_score,33.57,6,component_winter,10
+Сорочаны,airport_score,60.27,8,component_accessibility,11
+Сорочаны,transport_score,77.84,2,component_accessibility,12
+Сорочаны,price_score,92.78,5,component_price,13
+Красная Глинка,trips_score,48.05,25,component_demand,1
+Красная Глинка,growth_score,17.74,10,component_demand,2
+Красная Глинка,stay_score,46.69,5,component_demand,3
+Красная Глинка,trails_km_score,19.15,10,component_infrastructure,4
+Красная Глинка,lifts_score,43.21,7,component_infrastructure,5
+Красная Глинка,lodging_score,46.32,5,component_infrastructure,6
+Красная Глинка,food_score,58.26,3,component_infrastructure,7
+Красная Глинка,snow_days_score,41.81,8,component_winter,8
+Красная Глинка,frost_days_score,55.4,6,component_winter,9
+Красная Глинка,snowfall_score,19.48,6,component_winter,10
+Красная Глинка,airport_score,91.19,8,component_accessibility,11
+Красная Глинка,transport_score,70.83,2,component_accessibility,12
+Красная Глинка,price_score,96.86,5,component_price,13
+Гладенькая,trips_score,23.53,25,component_demand,1
+Гладенькая,growth_score,100.0,10,component_demand,2
+Гладенькая,stay_score,28.59,5,component_demand,3
+Гладенькая,trails_km_score,24.65,10,component_infrastructure,4
+Гладенькая,lifts_score,19.91,7,component_infrastructure,5
+Гладенькая,lodging_score,0.0,5,component_infrastructure,6
+Гладенькая,food_score,0.0,3,component_infrastructure,7
+Гладенькая,snow_days_score,58.92,8,component_winter,8
+Гладенькая,frost_days_score,83.09,6,component_winter,9
+Гладенькая,snowfall_score,9.85,6,component_winter,10
+Гладенькая,airport_score,30.93,8,component_accessibility,11
+Гладенькая,transport_score,0.0,2,component_accessibility,12
+Гладенькая,price_score,69.71,5,component_price,13

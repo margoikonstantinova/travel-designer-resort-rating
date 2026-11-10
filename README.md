@@ -44,7 +44,7 @@ prepared-таблицы -> витрина `data/mart/resort_features.csv` ->
 2. Профиль курорта с картой
 3. Сравнение двух курортов
 4. Качество данных. 
-Дашборд ничего не считает сам - источник единственный, `data/mart/resort_scores.csv`, пересобранный конвейером. 
+Дашборд ничего не считает сам - источники data/mart/resort_scores.csv и его перевертыш data/mart/resort_scores_long.csv для вкладки профиля, оба пересобираются конвейером.
 
 ![Экран "Рейтинг"](assets/dashboard_rating.png)
 
@@ -55,7 +55,7 @@ assets             дополнительные изображения
 data/raw/          исходные файлы и датированные слои сбора (не перезаписываются)
 data/manual/       ручные сборы (цены, опции трасс) + метаданные с родословной
 data/prepared/     очищенные таблицы по источникам
-data/mart/         витрина resort_features + итоговый resort_scores
+data/mart/         витрина resort_features + итоговый resort_scores + перевертыш resort_scores_long для дашборда
 src/               collect_* (загрузчики, сеть) и fix_* (разовые фиксы слоя)
 src/transform/     очистка, агрегации и сборка витрины
 src/scoring/       расчет баллов и рейтинга

@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
-"""Один запуск - весь конвейер: raw-файлы -> prepared -> витрина -> resort_scores.
+"""Один запуск - весь конвейер: raw-файлы -> prepared -> витрина -> resort_scores
+-> перевертыш resort_scores_long (витрина для дашборда).
 
 Запуск из корня проекта:
     python src/run_all.py
@@ -27,6 +28,7 @@ STEPS = [
     ("помесячная погода", "src/transform/build_weather_monthly.py"),
     ("витрина resort_features", "src/transform/build_resort_features.py"),
     ("рейтинг resort_scores", "src/scoring/build_resort_scores.py"),
+    ("перевертыш resort_scores_long", "src/scoring/build_resort_scores_long.py"),
 ]
 
 
@@ -40,7 +42,8 @@ def main() -> None:
             print(f"Остановка: шаг '{title}' завершился с кодом {result.returncode}")
             sys.exit(result.returncode)
     print(f"\nГотово за {time.time() - started:.1f} c.")
-    print("data/mart/resort_features.csv и data/mart/resort_scores.csv пересобраны.")
+    print("data/mart/resort_features.csv, resort_scores.csv"
+          " и resort_scores_long.csv пересобраны.")
 
 
 if __name__ == "__main__":
