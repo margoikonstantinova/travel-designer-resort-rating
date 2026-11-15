@@ -11,3 +11,4 @@ __pycache__/
 # служебное ОС
 .DS_Store
 Thumbs.db
+.~lock.*

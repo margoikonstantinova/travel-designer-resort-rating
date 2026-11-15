@@ -26,13 +26,13 @@ def main():
     reference = df[COLUMNS].copy()
     for col in ("latitude", "longitude"):
         reference[col] = pd.to_numeric(reference[col], errors="raise")
-        reference["needs_manual_check"] = (
+    reference["needs_manual_check"] = (
         reference["coordinate_quality"] != "resort_or_complex_page"
     )
     OUT.parent.mkdir(parents=True, exist_ok=True)
     reference.to_csv(OUT, index=False, encoding="utf-8-sig")
     print(f"Сохранено: {OUT}")
-    print(f"Курортов: {len(reference)}, колонок: {len(COLUMNS)}")
+    print(f"Курортов: {len(reference)}, колонок: {len(reference.columns)}")
     print(reference.head(3))
 
 if __name__ == "__main__":
