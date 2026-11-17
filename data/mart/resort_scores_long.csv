@@ -11,7 +11,7 @@
 Роза Хутор,snowfall_score,Снегопад за сезон,31.8,6,component_winter,Климат,10
 Роза Хутор,airport_score,Расстояние до аэропорта,58.27,8,component_accessibility,Доступность,11
 Роза Хутор,transport_score,Локальный транспорт,62.45,2,component_accessibility,Доступность,12
-Роза Хутор,price_score,Мин разовая ски пасса,0.0,5,component_price,Цена,13
+Роза Хутор,price_score,Мин разовая ски пасса,50.0,5,component_price,Цена,13
 Красная Поляна,trips_score,Поездки по региону 2025,95.84,25,component_demand,Региональный спрос,1
 Красная Поляна,growth_score,Рост поездок,42.32,10,component_demand,Региональный спрос,2
 Красная Поляна,stay_score,Средняя длительность,83.43,5,component_demand,Региональный спрос,3
@@ -24,7 +24,7 @@
 Красная Поляна,snowfall_score,Снегопад за сезон,7.29,6,component_winter,Климат,10
 Красная Поляна,airport_score,Расстояние до аэропорта,60.0,8,component_accessibility,Доступность,11
 Красная Поляна,transport_score,Локальный транспорт,72.09,2,component_accessibility,Доступность,12
-Красная Поляна,price_score,Мин разовая ски пасса,17.89,5,component_price,Цена,13
+Красная Поляна,price_score,Мин разовая ски пасса,50.0,5,component_price,Цена,13
 Газпром Поляна,trips_score,Поездки по региону 2025,95.84,25,component_demand,Региональный спрос,1
 Газпром Поляна,growth_score,Рост поездок,42.32,10,component_demand,Региональный спрос,2
 Газпром Поляна,stay_score,Средняя длительность,83.43,5,component_demand,Региональный спрос,3
@@ -37,7 +37,7 @@
 Газпром Поляна,snowfall_score,Снегопад за сезон,69.09,6,component_winter,Климат,10
 Газпром Поляна,airport_score,Расстояние до аэропорта,56.07,8,component_accessibility,Доступность,11
 Газпром Поляна,transport_score,Локальный транспорт,64.5,2,component_accessibility,Доступность,12
-Газпром Поляна,price_score,Мин разовая ски пасса,16.62,5,component_price,Цена,13
+Газпром Поляна,price_score,Мин разовая ски пасса,15.45,5,component_price,Цена,13
 Шерегеш,trips_score,Поездки по региону 2025,39.25,25,component_demand,Региональный спрос,1
 Шерегеш,growth_score,Рост поездок,24.74,10,component_demand,Региональный спрос,2
 Шерегеш,stay_score,Средняя длительность,63.47,5,component_demand,Региональный спрос,3
@@ -50,7 +50,7 @@
 Шерегеш,snowfall_score,Снегопад за сезон,64.84,6,component_winter,Климат,10
 Шерегеш,airport_score,Расстояние до аэропорта,21.39,8,component_accessibility,Доступность,11
 Шерегеш,transport_score,Локальный транспорт,65.74,2,component_accessibility,Доступность,12
-Шерегеш,price_score,Мин разовая ски пасса,100.0,5,component_price,Цена,13
+Шерегеш,price_score,Мин разовая ски пасса,2.67,5,component_price,Цена,13
 Архыз,trips_score,Поездки по региону 2025,39.87,25,component_demand,Региональный спрос,1
 Архыз,growth_score,Рост поездок,100.0,10,component_demand,Региональный спрос,2
 Архыз,stay_score,Средняя длительность,12.47,5,component_demand,Региональный спрос,3
@@ -63,7 +63,7 @@
 Архыз,snowfall_score,Снегопад за сезон,65.58,6,component_winter,Климат,10
 Архыз,airport_score,Расстояние до аэропорта,27.19,8,component_accessibility,Доступность,11
 Архыз,transport_score,Локальный транспорт,48.3,2,component_accessibility,Доступность,12
-Архыз,price_score,Мин разовая ски пасса,28.61,5,component_price,Цена,13
+Архыз,price_score,Мин разовая ски пасса,41.99,5,component_price,Цена,13
 Домбай,trips_score,Поездки по региону 2025,39.87,25,component_demand,Региональный спрос,1
 Домбай,growth_score,Рост поездок,100.0,10,component_demand,Региональный спрос,2
 Домбай,stay_score,Средняя длительность,12.47,5,component_demand,Региональный спрос,3
@@ -76,7 +76,7 @@
 Домбай,snowfall_score,Снегопад за сезон,100.0,6,component_winter,Климат,10
 Домбай,airport_score,Расстояние до аэропорта,16.7,8,component_accessibility,Доступность,11
 Домбай,transport_score,Локальный транспорт,29.39,2,component_accessibility,Доступность,12
-Домбай,price_score,Мин разовая ски пасса,14.84,5,component_price,Цена,13
+Домбай,price_score,Мин разовая ски пасса,0.0,5,component_price,Цена,13
 Эльбрус,trips_score,Поездки по региону 2025,11.54,25,component_demand,Региональный спрос,1
 Эльбрус,growth_score,Рост поездок,16.22,10,component_demand,Региональный спрос,2
 Эльбрус,stay_score,Средняя длительность,100.0,5,component_demand,Региональный спрос,3
@@ -89,7 +89,7 @@
 Эльбрус,snowfall_score,Снегопад за сезон,91.28,6,component_winter,Климат,10
 Эльбрус,airport_score,Расстояние до аэропорта,27.48,8,component_accessibility,Доступность,11
 Эльбрус,transport_score,Локальный транспорт,49.94,2,component_accessibility,Доступность,12
-Эльбрус,price_score,Мин разовая ски пасса,7.01,5,component_price,Цена,13
+Эльбрус,price_score,Мин разовая ски пасса,19.4,5,component_price,Цена,13
 Чегет,trips_score,Поездки по региону 2025,11.54,25,component_demand,Региональный спрос,1
 Чегет,growth_score,Рост поездок,16.22,10,component_demand,Региональный спрос,2
 Чегет,stay_score,Средняя длительность,100.0,5,component_demand,Региональный спрос,3
@@ -102,7 +102,7 @@
 Чегет,snowfall_score,Снегопад за сезон,88.71,6,component_winter,Климат,10
 Чегет,airport_score,Расстояние до аэропорта,28.33,8,component_accessibility,Доступность,11
 Чегет,transport_score,Локальный транспорт,49.14,2,component_accessibility,Доступность,12
-Чегет,price_score,Мин разовая ски пасса,29.11,5,component_price,Цена,13
+Чегет,price_score,Мин разовая ски пасса,30.91,5,component_price,Цена,13
 Мамисон,trips_score,Поездки по региону 2025,0.0,25,component_demand,Региональный спрос,1
 Мамисон,growth_score,Рост поездок,0.0,10,component_demand,Региональный спрос,2
 Мамисон,stay_score,Средняя длительность,46.15,5,component_demand,Региональный спрос,3
@@ -115,7 +115,7 @@
 Мамисон,snowfall_score,Снегопад за сезон,64.71,6,component_winter,Климат,10
 Мамисон,airport_score,Расстояние до аэропорта,31.81,8,component_accessibility,Доступность,11
 Мамисон,transport_score,Локальный транспорт,22.74,2,component_accessibility,Доступность,12
-Мамисон,price_score,Мин разовая ски пасса,12.64,5,component_price,Цена,13
+Мамисон,price_score,Мин разовая ски пасса,50.0,5,component_price,Цена,13
 Цей,trips_score,Поездки по региону 2025,0.0,25,component_demand,Региональный спрос,1
 Цей,growth_score,Рост поездок,0.0,10,component_demand,Региональный спрос,2
 Цей,stay_score,Средняя длительность,46.15,5,component_demand,Региональный спрос,3
@@ -128,7 +128,7 @@
 Цей,snowfall_score,Снегопад за сезон,69.25,6,component_winter,Климат,10
 Цей,airport_score,Расстояние до аэропорта,36.73,8,component_accessibility,Доступность,11
 Цей,transport_score,Локальный транспорт,26.4,2,component_accessibility,Доступность,12
-Цей,price_score,Мин разовая ски пасса,47.64,5,component_price,Цена,13
+Цей,price_score,Мин разовая ски пасса,100.0,5,component_price,Цена,13
 Манжерок,trips_score,Поездки по региону 2025,30.99,25,component_demand,Региональный спрос,1
 Манжерок,growth_score,Рост поездок,14.77,10,component_demand,Региональный спрос,2
 Манжерок,stay_score,Средняя длительность,31.34,5,component_demand,Региональный спрос,3
@@ -141,7 +141,7 @@
 Манжерок,snowfall_score,Снегопад за сезон,13.0,6,component_winter,Климат,10
 Манжерок,airport_score,Расстояние до аэропорта,0.29,8,component_accessibility,Доступность,11
 Манжерок,transport_score,Локальный транспорт,22.74,2,component_accessibility,Доступность,12
-Манжерок,price_score,Мин разовая ски пасса,38.85,5,component_price,Цена,13
+Манжерок,price_score,Мин разовая ски пасса,34.79,5,component_price,Цена,13
 Телецкий,trips_score,Поездки по региону 2025,30.99,25,component_demand,Региональный спрос,1
 Телецкий,growth_score,Рост поездок,14.77,10,component_demand,Региональный спрос,2
 Телецкий,stay_score,Средняя длительность,31.34,5,component_demand,Региональный спрос,3
@@ -167,7 +167,7 @@
 Большой Вудъявр,snowfall_score,Снегопад за сезон,50.1,6,component_winter,Климат,10
 Большой Вудъявр,airport_score,Расстояние до аэропорта,16.91,8,component_accessibility,Доступность,11
 Большой Вудъявр,transport_score,Локальный транспорт,77.26,2,component_accessibility,Доступность,12
-Большой Вудъявр,price_score,Мин разовая ски пасса,49.83,5,component_price,Цена,13
+Большой Вудъявр,price_score,Мин разовая ски пасса,100.0,5,component_price,Цена,13
 Кукисвумчорр,trips_score,Поездки по региону 2025,25.55,25,component_demand,Региональный спрос,1
 Кукисвумчорр,growth_score,Рост поездок,23.72,10,component_demand,Региональный спрос,2
 Кукисвумчорр,stay_score,Средняя длительность,31.51,5,component_demand,Региональный спрос,3
@@ -180,7 +180,7 @@
 Кукисвумчорр,snowfall_score,Снегопад за сезон,40.33,6,component_winter,Климат,10
 Кукисвумчорр,airport_score,Расстояние до аэропорта,18.49,8,component_accessibility,Доступность,11
 Кукисвумчорр,transport_score,Локальный транспорт,65.74,2,component_accessibility,Доступность,12
-Кукисвумчорр,price_score,Мин разовая ски пасса,92.78,5,component_price,Цена,13
+Кукисвумчорр,price_score,Мин разовая ски пасса,60.69,5,component_price,Цена,13
 КолаСпортЛэнд,trips_score,Поездки по региону 2025,25.55,25,component_demand,Региональный спрос,1
 КолаСпортЛэнд,growth_score,Рост поездок,23.72,10,component_demand,Региональный спрос,2
 КолаСпортЛэнд,stay_score,Средняя длительность,31.51,5,component_demand,Региональный спрос,3
@@ -206,7 +206,7 @@
 Горный воздух,snowfall_score,Снегопад за сезон,53.66,6,component_winter,Климат,10
 Горный воздух,airport_score,Расстояние до аэропорта,100.0,8,component_accessibility,Доступность,11
 Горный воздух,transport_score,Локальный транспорт,91.84,2,component_accessibility,Доступность,12
-Горный воздух,price_score,Мин разовая ски пасса,91.91,5,component_price,Цена,13
+Горный воздух,price_score,Мин разовая ски пасса,50.0,5,component_price,Цена,13
 Холдоми,trips_score,Поездки по региону 2025,36.68,25,component_demand,Региональный спрос,1
 Холдоми,growth_score,Рост поездок,15.53,10,component_demand,Региональный спрос,2
 Холдоми,stay_score,Средняя длительность,21.49,5,component_demand,Региональный спрос,3
@@ -219,7 +219,7 @@
 Холдоми,snowfall_score,Снегопад за сезон,30.89,6,component_winter,Климат,10
 Холдоми,airport_score,Расстояние до аэропорта,52.43,8,component_accessibility,Доступность,11
 Холдоми,transport_score,Локальный транспорт,37.77,2,component_accessibility,Доступность,12
-Холдоми,price_score,Мин разовая ски пасса,78.7,5,component_price,Цена,13
+Холдоми,price_score,Мин разовая ски пасса,14.39,5,component_price,Цена,13
 Морозная гора,trips_score,Поездки по региону 2025,20.28,25,component_demand,Региональный спрос,1
 Морозная гора,growth_score,Рост поездок,100.0,10,component_demand,Региональный спрос,2
 Морозная гора,stay_score,Средняя длительность,14.97,5,component_demand,Региональный спрос,3
@@ -232,7 +232,7 @@
 Морозная гора,snowfall_score,Снегопад за сезон,84.18,6,component_winter,Климат,10
 Морозная гора,airport_score,Расстояние до аэропорта,95.16,8,component_accessibility,Доступность,11
 Морозная гора,transport_score,Локальный транспорт,44.42,2,component_accessibility,Доступность,12
-Морозная гора,price_score,Мин разовая ски пасса,96.86,5,component_price,Цена,13
+Морозная гора,price_score,Мин разовая ски пасса,1.77,5,component_price,Цена,13
 Бобровый лог,trips_score,Поездки по региону 2025,47.69,25,component_demand,Региональный спрос,1
 Бобровый лог,growth_score,Рост поездок,45.33,10,component_demand,Региональный спрос,2
 Бобровый лог,stay_score,Средняя длительность,44.39,5,component_demand,Региональный спрос,3
@@ -245,7 +245,7 @@
 Бобровый лог,snowfall_score,Снегопад за сезон,12.34,6,component_winter,Климат,10
 Бобровый лог,airport_score,Расстояние до аэропорта,66.58,8,component_accessibility,Доступность,11
 Бобровый лог,transport_score,Локальный транспорт,100.0,2,component_accessibility,Доступность,12
-Бобровый лог,price_score,Мин разовая ски пасса,33.51,5,component_price,Цена,13
+Бобровый лог,price_score,Мин разовая ски пасса,50.0,5,component_price,Цена,13
 Соболиная гора,trips_score,Поездки по региону 2025,42.21,25,component_demand,Региональный спрос,1
 Соболиная гора,growth_score,Рост поездок,36.16,10,component_demand,Региональный спрос,2
 Соболиная гора,stay_score,Средняя длительность,54.15,5,component_demand,Региональный спрос,3
@@ -258,7 +258,7 @@
 Соболиная гора,snowfall_score,Снегопад за сезон,17.99,6,component_winter,Климат,10
 Соболиная гора,airport_score,Расстояние до аэропорта,31.37,8,component_accessibility,Доступность,11
 Соболиная гора,transport_score,Локальный транспорт,63.84,2,component_accessibility,Доступность,12
-Соболиная гора,price_score,Мин разовая ски пасса,54.89,5,component_price,Цена,13
+Соболиная гора,price_score,Мин разовая ски пасса,55.13,5,component_price,Цена,13
 Гора Белая,trips_score,Поездки по региону 2025,60.62,25,component_demand,Региональный спрос,1
 Гора Белая,growth_score,Рост поездок,64.37,10,component_demand,Региональный спрос,2
 Гора Белая,stay_score,Средняя длительность,28.21,5,component_demand,Региональный спрос,3
@@ -271,7 +271,7 @@
 Гора Белая,snowfall_score,Снегопад за сезон,23.98,6,component_winter,Климат,10
 Гора Белая,airport_score,Расстояние до аэропорта,20.72,8,component_accessibility,Доступность,11
 Гора Белая,transport_score,Локальный транспорт,22.74,2,component_accessibility,Доступность,12
-Гора Белая,price_score,Мин разовая ски пасса,53.53,5,component_price,Цена,13
+Гора Белая,price_score,Мин разовая ски пасса,53.36,5,component_price,Цена,13
 Евразия,trips_score,Поездки по региону 2025,47.25,25,component_demand,Региональный спрос,1
 Евразия,growth_score,Рост поездок,59.46,10,component_demand,Региональный спрос,2
 Евразия,stay_score,Средняя длительность,42.6,5,component_demand,Региональный спрос,3
@@ -284,7 +284,7 @@
 Евразия,snowfall_score,Снегопад за сезон,25.48,6,component_winter,Климат,10
 Евразия,airport_score,Расстояние до аэропорта,17.76,8,component_accessibility,Доступность,11
 Евразия,transport_score,Локальный транспорт,63.51,2,component_accessibility,Доступность,12
-Евразия,price_score,Мин разовая ски пасса,87.17,5,component_price,Цена,13
+Евразия,price_score,Мин разовая ски пасса,62.64,5,component_price,Цена,13
 Аджигардак,trips_score,Поездки по региону 2025,47.25,25,component_demand,Региональный спрос,1
 Аджигардак,growth_score,Рост поездок,59.46,10,component_demand,Региональный спрос,2
 Аджигардак,stay_score,Средняя длительность,42.6,5,component_demand,Региональный спрос,3
@@ -310,7 +310,7 @@
 Солнечная долина,snowfall_score,Снегопад за сезон,0.0,6,component_winter,Климат,10
 Солнечная долина,airport_score,Расстояние до аэропорта,26.37,8,component_accessibility,Доступность,11
 Солнечная долина,transport_score,Локальный транспорт,62.45,2,component_accessibility,Доступность,12
-Солнечная долина,price_score,Мин разовая ски пасса,10.62,5,component_price,Цена,13
+Солнечная долина,price_score,Мин разовая ски пасса,50.0,5,component_price,Цена,13
 Завьялиха,trips_score,Поездки по региону 2025,47.25,25,component_demand,Региональный спрос,1
 Завьялиха,growth_score,Рост поездок,59.46,10,component_demand,Региональный спрос,2
 Завьялиха,stay_score,Средняя длительность,42.6,5,component_demand,Региональный спрос,3
@@ -323,7 +323,7 @@
 Завьялиха,snowfall_score,Снегопад за сезон,27.44,6,component_winter,Климат,10
 Завьялиха,airport_score,Расстояние до аэропорта,12.92,8,component_accessibility,Доступность,11
 Завьялиха,transport_score,Локальный транспорт,11.37,2,component_accessibility,Доступность,12
-Завьялиха,price_score,Мин разовая ски пасса,38.85,5,component_price,Цена,13
+Завьялиха,price_score,Мин разовая ски пасса,50.0,5,component_price,Цена,13
 Абзаково,trips_score,Поездки по региону 2025,47.92,25,component_demand,Региональный спрос,1
 Абзаково,growth_score,Рост поездок,46.12,10,component_demand,Региональный спрос,2
 Абзаково,stay_score,Средняя длительность,71.81,5,component_demand,Региональный спрос,3
@@ -336,7 +336,7 @@
 Абзаково,snowfall_score,Снегопад за сезон,2.52,6,component_winter,Климат,10
 Абзаково,airport_score,Расстояние до аэропорта,51.8,8,component_accessibility,Доступность,11
 Абзаково,transport_score,Локальный транспорт,39.34,2,component_accessibility,Доступность,12
-Абзаково,price_score,Мин разовая ски пасса,28.12,5,component_price,Цена,13
+Абзаково,price_score,Мин разовая ски пасса,15.45,5,component_price,Цена,13
 Мраткино,trips_score,Поездки по региону 2025,47.92,25,component_demand,Региональный спрос,1
 Мраткино,growth_score,Рост поездок,46.12,10,component_demand,Региональный спрос,2
 Мраткино,stay_score,Средняя длительность,71.81,5,component_demand,Региональный спрос,3
@@ -349,7 +349,7 @@
 Мраткино,snowfall_score,Снегопад за сезон,17.88,6,component_winter,Климат,10
 Мраткино,airport_score,Расстояние до аэропорта,38.36,8,component_accessibility,Доступность,11
 Мраткино,transport_score,Локальный транспорт,56.85,2,component_accessibility,Доступность,12
-Мраткино,price_score,Мин разовая ски пасса,61.23,5,component_price,Цена,13
+Мраткино,price_score,Мин разовая ски пасса,17.62,5,component_price,Цена,13
 Губаха,trips_score,Поездки по региону 2025,42.12,25,component_demand,Региональный спрос,1
 Губаха,growth_score,Рост поездок,45.9,10,component_demand,Региональный спрос,2
 Губаха,stay_score,Средняя длительность,42.05,5,component_demand,Региональный спрос,3
@@ -362,7 +362,7 @@
 Губаха,snowfall_score,Снегопад за сезон,47.38,6,component_winter,Климат,10
 Губаха,airport_score,Расстояние до аэропорта,16.42,8,component_accessibility,Доступность,11
 Губаха,transport_score,Локальный транспорт,67.17,2,component_accessibility,Доступность,12
-Губаха,price_score,Мин разовая ски пасса,78.7,5,component_price,Цена,13
+Губаха,price_score,Мин разовая ски пасса,50.0,5,component_price,Цена,13
 Игора,trips_score,Поездки по региону 2025,80.43,25,component_demand,Региональный спрос,1
 Игора,growth_score,Рост поездок,48.18,10,component_demand,Региональный спрос,2
 Игора,stay_score,Средняя длительность,47.89,5,component_demand,Региональный спрос,3
@@ -375,7 +375,7 @@
 Игора,snowfall_score,Снегопад за сезон,29.44,6,component_winter,Климат,10
 Игора,airport_score,Расстояние до аэропорта,34.31,8,component_accessibility,Доступность,11
 Игора,transport_score,Локальный транспорт,75.38,2,component_accessibility,Доступность,12
-Игора,price_score,Мин разовая ски пасса,77.99,5,component_price,Цена,13
+Игора,price_score,Мин разовая ски пасса,50.0,5,component_price,Цена,13
 Сорочаны,trips_score,Поездки по региону 2025,100.0,25,component_demand,Региональный спрос,1
 Сорочаны,growth_score,Рост поездок,99.1,10,component_demand,Региональный спрос,2
 Сорочаны,stay_score,Средняя длительность,55.0,5,component_demand,Региональный спрос,3
@@ -388,7 +388,7 @@
 Сорочаны,snowfall_score,Снегопад за сезон,33.57,6,component_winter,Климат,10
 Сорочаны,airport_score,Расстояние до аэропорта,60.27,8,component_accessibility,Доступность,11
 Сорочаны,transport_score,Локальный транспорт,77.84,2,component_accessibility,Доступность,12
-Сорочаны,price_score,Мин разовая ски пасса,92.78,5,component_price,Цена,13
+Сорочаны,price_score,Мин разовая ски пасса,50.0,5,component_price,Цена,13
 Красная Глинка,trips_score,Поездки по региону 2025,48.05,25,component_demand,Региональный спрос,1
 Красная Глинка,growth_score,Рост поездок,17.74,10,component_demand,Региональный спрос,2
 Красная Глинка,stay_score,Средняя длительность,46.69,5,component_demand,Региональный спрос,3
@@ -401,7 +401,7 @@
 Красная Глинка,snowfall_score,Снегопад за сезон,19.48,6,component_winter,Климат,10
 Красная Глинка,airport_score,Расстояние до аэропорта,91.19,8,component_accessibility,Доступность,11
 Красная Глинка,transport_score,Локальный транспорт,70.83,2,component_accessibility,Доступность,12
-Красная Глинка,price_score,Мин разовая ски пасса,96.86,5,component_price,Цена,13
+Красная Глинка,price_score,Мин разовая ски пасса,29.48,5,component_price,Цена,13
 Гладенькая,trips_score,Поездки по региону 2025,23.53,25,component_demand,Региональный спрос,1
 Гладенькая,growth_score,Рост поездок,100.0,10,component_demand,Региональный спрос,2
 Гладенькая,stay_score,Средняя длительность,28.59,5,component_demand,Региональный спрос,3
@@ -414,4 +414,4 @@
 Гладенькая,snowfall_score,Снегопад за сезон,9.85,6,component_winter,Климат,10
 Гладенькая,airport_score,Расстояние до аэропорта,30.93,8,component_accessibility,Доступность,11
 Гладенькая,transport_score,Локальный транспорт,0.0,2,component_accessibility,Доступность,12
-Гладенькая,price_score,Мин разовая ски пасса,69.71,5,component_price,Цена,13
+Гладенькая,price_score,Мин разовая ски пасса,33.43,5,component_price,Цена,13
