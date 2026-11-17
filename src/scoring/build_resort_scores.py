@@ -182,6 +182,11 @@ def confidence_and_flags(mart: pd.DataFrame) -> pd.DataFrame:
 
     flag_conditions = pd.DataFrame({
         "missing price": mart["adult_price_min_rub"].isna(),
+        "цена: прошлый сезон": mart["price_season"].eq("2025/26")
+                                      & mart["adult_price_min_rub"].notna(),
+        "цена: неофициальный источник":
+            mart["source_confidence"].ne("official_single_source")
+            & mart["adult_price_min_rub"].notna(),
         "check coordinates": mart["coordinate_quality"] == "manual_review_required",
         "coordinates are proxy": mart["coordinate_quality"].str.contains("proxy", na=False),
         "OSM radial overlap": mart["osm_overlap_warning"].notna(),

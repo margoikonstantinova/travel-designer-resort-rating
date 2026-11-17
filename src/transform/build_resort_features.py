@@ -69,9 +69,9 @@ def build() -> pd.DataFrame:
     mart = mart.merge(pd.read_csv(DATA / "prepared" / "resort_trails_options.csv")[trails_cols],
                       on="resort_id", how="left", validate="one_to_one")
 
-    # Цены ски-пассов: минимальная разовая взрослая цена (решение №2 журнала)
+    # Цены ски-пассов: минимальный дневной тариф для взрослого без льгот + флаги качества источника 
     prices_cols = ["resort_id", "adult_price_min_rub", "adult_price_max_rub",
-                   "child_price_min_rub", "child_price_max_rub"]
+                   "price_season", "source_confidence"]
     mart = mart.merge(pd.read_csv(DATA / "manual" / "prices_season_2026_27.csv")[prices_cols],
                       on="resort_id", how="left", validate="one_to_one")
 
