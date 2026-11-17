@@ -6,10 +6,13 @@
 Разница только в форме результата: ноутбук - журнал с текстовыми выводами,
 скрипт - воспроизводимый расчет, который пишет data/mart/resort_scores.csv.
 
-Сверка с блокнотом зашита внизу: контрольные числа (Сорочаны 71.86, Чегет 88.67
-и другие) проверяются при каждом запуске. Два независимых пути расчета дают
-одинаковый результат - это главный аргумент воспроизводимости проекта.
+Автопроверки ТЗ (инварианты) выполняются при каждом запуске. Сверка
+с контрольными числами блокнота - отдельная команда --check-snapshot:
+числа зафиксированы как снимок данных 03.11 и после сознательного обновления
+данных (например, тарифов) закономерно меняются. Два независимых пути
+расчета сошлись - это главный аргумент воспроизводимости проекта.
 """
+import sys
 from pathlib import Path
 
 import numpy as np
@@ -279,7 +282,7 @@ def build() -> pd.DataFrame:
 
 
 def check(result: pd.DataFrame) -> None:
-    """Автопроверки ТЗ (раздел 16) и сверка с контрольными числами блокнота 03."""
+    """Автопроверки ТЗ (раздел 16). Инварианты - выполняются при каждом запуске."""
     checks = []
     checks.append(("Сумма весов ТЗ = 100", abs(sum(TZ_WEIGHTS.values()) - 100) <= 0.001))
     num = result.select_dtypes("number")
@@ -298,35 +301,56 @@ def check(result: pd.DataFrame) -> None:
                    np.allclose(result[list(WEIGHT_GROUPS)].sum(axis=1),
                                result["popularity_score"], atol=1e-9)))
 
-    # Сверка с блокнотом (независимый путь расчета, глава 2 и глава 3 блокнота 03)
-    def score_of(name):
-        return result.loc[result["name_ru"] == name, "popularity_score"].iloc[0]
-    checks.append(("Сорочаны = 71.86", abs(score_of("Сорочаны") - 71.860342) < 0.005))
-    checks.append(("Газпром Поляна = 69.71",
-                   abs(score_of("Газпром Поляна") - 69.712829) < 0.005))
-    checks.append(("Чегет, хардкор = 88.67",
-                   abs(result.loc[result["name_ru"] == "Чегет",
-                                  "hardcore_score"].iloc[0] - 88.670376) < 0.005))
-    checks.append(("Газпром Поляна, семья = 73.04",
-                   abs(result.loc[result["name_ru"] == "Газпром Поляна",
-                                  "family_score"].iloc[0] - 73.038079) < 0.005))
-    checks.append(("Горный воздух, комфорт = 90.67",
-                   abs(result.loc[result["name_ru"] == "Горный воздух",
-                                  "comfort_score"].iloc[0] - 90.666793) < 0.005))
-    top5 = result.sort_values("rank")["name_ru"].head(5).tolist()
-    checks.append(("Топ-5 = Сорочаны, Газпром, Роза, Красная, Шерегеш",
-                   top5 == ["Сорочаны", "Газпром Поляна", "Роза Хутор",
-                            "Красная Поляна", "Шерегеш"]))
-
     failed = [name for name, ok in checks if not ok]
     for name, ok in checks:
         print(("OK      " if ok else "ПРОВАЛ  ") + name)
     assert not failed, "провалены проверки: " + ", ".join(failed)
 
 
+def check_snapshot(result: pd.DataFrame) -> None:
+    """Сверка с контрольными числами сохраненного снимка (ноутбук 03, данные 03.11).
+
+    Запускается отдельно: python src/scoring/build_resort_scores.py --check-snapshot.
+    После сознательного обновления данных (например, тарифов) числа снимка
+    закономерно меняются: при провале ниже печатаются актуальные значения,
+    их нужно вписать в checks как новый снимок.
+    """
+    def score_of(name, column="popularity_score"):
+        return result.loc[result["name_ru"] == name, column].iloc[0]
+
+    top5 = result.sort_values("rank")["name_ru"].head(5).tolist()
+    checks = [
+        ("Сорочаны = 71.86", abs(score_of("Сорочаны") - 71.860342) < 0.005),
+        ("Газпром Поляна = 69.71", abs(score_of("Газпром Поляна") - 69.712829) < 0.005),
+        ("Чегет, хардкор = 88.67",
+         abs(score_of("Чегет", "hardcore_score") - 88.670376) < 0.005),
+        ("Газпром Поляна, семья = 73.04",
+         abs(score_of("Газпром Поляна", "family_score") - 73.038079) < 0.005),
+        ("Горный воздух, комфорт = 90.67",
+         abs(score_of("Горный воздух", "comfort_score") - 90.666793) < 0.005),
+        ("Топ-5 = Сорочаны, Газпром, Роза, Красная, Шерегеш",
+         top5 == ["Сорочаны", "Газпром Поляна", "Роза Хутор",
+                  "Красная Поляна", "Шерегеш"]),
+    ]
+    failed = [name for name, ok in checks if not ok]
+    for name, ok in checks:
+        print(("OK      " if ok else "ПРОВАЛ  ") + name)
+    if failed:
+        print("Актуальные значения расчета - вписать в check_snapshot как новый снимок:")
+        print(f"  Сорочаны, итог: {score_of('Сорочаны'):.6f}")
+        print(f"  Газпром Поляна, итог: {score_of('Газпром Поляна'):.6f}")
+        print(f"  Чегет, хардкор: {score_of('Чегет', 'hardcore_score'):.6f}")
+        print(f"  Газпром Поляна, семья: {score_of('Газпром Поляна', 'family_score'):.6f}")
+        print(f"  Горный воздух, комфорт: {score_of('Горный воздух', 'comfort_score'):.6f}")
+        print("  Топ-5: " + ", ".join(top5))
+    assert not failed, "снимок не совпал: " + ", ".join(failed)
+
+
 def main() -> None:
     result = build()
     check(result)
+    if "--check-snapshot" in sys.argv:
+        check_snapshot(result)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     result.to_csv(OUT, index=False, encoding="utf-8-sig")
     print(f"resort_scores: {result.shape[0]} строк x {result.shape[1]} колонок")
