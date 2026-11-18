@@ -1,6 +1,7 @@
 ﻿resort_id,name_ru,len_total_m,len_max_m,drop_m,trails_total,green,red,black,blue,freeride,tubing,source_quality,source_url,note,checked_at
-R001,Роза Хутор,105000.0,5355.0,720.0,71.0,11.0,21.0,12.0,27.0,есть,есть,official,https://rosakhutor.ru/,,2026-11-03
-R002,Красная Поляна,26875.0,2863.0,740.0,40.0,5.0,11.0,9.0,15.0,есть,есть,official,https://krasnayapolyanaresort.ru/,,2026-11-03
+R001,Роза Хутор,105000.0,5355.0,1569.0,71.0,11.0,21.0,12.0,27.0,есть,есть,official,https://rosakhutor.ru/,"перепад уточнен 18.11.2026 с официального сайта: 1569 м (прежде 720)",2026-11-18
+R002,Красная Поляна,26875.0,2863.0,1400.0,40.0,5.0,11.0,9.0,15.0,есть,есть,"official / сторонние","https://krasnayapolyanaresort.ru/
+https://www.tutu.ru/geo/rossiya/krasnaya_polyana/article/slopes_krasnaya_polyana/","перепад уточнен 18.11.2026: 1400 м, tutu.ru (официальный сайт перепад не публикует)",2026-11-18
 R003,Газпром Поляна,38713.0,2110.0,900.0,41.0,8.0,19.0,4.0,10.0,есть,есть,official,https://polyanaski.ru/,,2026-11-03
 R004,Шерегеш,61000.0,4200.0,730.0,22.0,2.0,8.0,1.0,11.0,есть,есть,official / сторонние,"https://sheregesh.ru/
 https://dirsheregesh.ru/about",,2026-11-03
