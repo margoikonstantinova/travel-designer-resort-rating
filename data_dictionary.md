@@ -1,8 +1,5 @@
 # Словарь данных
 
-* Автор: Константинова Маргарита
-* Период работы: 14.10.26 - 09.11.26
-
 ## Таблица resorts.csv
 * resort_id - идентификатор горнолыжного курорта (далее ГК) - дано изначально;
 * name_ru - название ГК на русском - дано изначально;
@@ -77,7 +74,7 @@
 * name_ru - название ГК на русском;
 * nearest_scheduled_airport - название ближайшего аэропорта с регулярными рейсами;
 * nearest_airport_iata - IATA-код аэропорта;
-* nearest_airport_distance_km - расстояние от курорта до аэропорта по прямой;
+* nearest_airport_distance_km - расстояние от ГК до аэропорта по прямой;
 * nearest_airport_municipality - город/муниципалитет, где находится аэропорт.
 
 ## Таблица resort_trails_options.csv - ручной сбор + build_trails_options.py
@@ -144,7 +141,7 @@
 Одна строка - курорт. Собирается ноутбуком 02_build_resort_features.ipynb
 и скриптом build_resort_features.py (результат совпадает байт-в-байт).
 
-Паспорт:
+Паспорт объекта:
 - resort_id - идентификатор ГК;
 - name_ru - название ГК на русском;
 - region - регион.
@@ -212,7 +209,7 @@
 Одна строка - курорт. Собирается ноутбуком 03_scoring.ipynb и скриптом
 build_resort_scores.py (результат совпадает байт-в-байт). Группы колонок:
 
-Паспорт (7): resort_id, name_ru, region, operating, latitude, longitude,
+Паспорт объекта (7): resort_id, name_ru, region, operating, latitude, longitude,
 coordinate_quality - курорт, статус и координаты (те же значения,
 что в витрине).
 
@@ -222,14 +219,13 @@ lift_lines_6km, lodging_objects_6km, food_objects_6km,
 attraction_objects_6km, transport_objects_6km, avg_snow_days_per_season,
 avg_freezing_days_per_season, avg_snowfall_cm_per_season,
 nearest_airport_iata, nearest_airport_distance_km, adult_price_min_rub,
-adult_price_max_rub (ночевки и детские цены в рейтинг не входят,
-поэтому здесь их нет).
+adult_price_max_rub.
 
 Базовые баллы (13) - перевод показателя в шкалу 0-100, в скобках вес
 в итоговом индексе:
 - trips_score - поездки, лог min-max (25);
-- growth_score - рост поездок, линейная шкала -25..+25% (10);
-- stay_score - длительность поездки, линейная 1-7 ночей (5);
+- growth_score - рост поездок, линейная шкала (10);
+- stay_score - длительность поездки, линейная (5);
 - trails_km_score - километраж трасс, лог min-max (10);
 - lifts_score - подъемники, лог min-max (7);
 - lodging_score - размещение, лог min-max (5);
@@ -242,7 +238,7 @@ adult_price_max_rub (ночевки и детские цены в рейтинг
   тем выше (8);
 - transport_score - объекты транспорта, лог min-max (2);
 - price_score - минимальная разовая цена, обратный лог: чем дешевле,
-  тем выше (5); нет цены - нейтральный 50.
+  тем выше (5); нет цены - нейтральный 50 баллов.
 
 Укрупненные компоненты (5) - суммы баллов групп, вклад в индекс из:
 - component_demand - региональный спрос (из 40);
@@ -272,12 +268,12 @@ adult_price_max_rub (ночевки и детские цены в рейтинг
 Персонажи (6) - сценарные рейтинги по 29 работающим курортам
 (3 неработающих скрыты, у них пропуск), суммы перечисленных баллов
 с весами:
-- hardcore_score / hardcore_rank - "спортивный характер": перепад 25,
+- hardcore_score / hardcore_rank - "хардкор лыжник": перепад высот 25,
   снежные дни 20, черные трассы 15, фрирайд 10, снегопад 10, подъемники 10,
   красные трассы 10;
-- family_score / family_rank - "семейный характер": зеленые трассы 25,
+- family_score / family_rank - "семья с детьми": зеленые трассы 25,
   тюбинг 20, ЖД 20, цена 15, питание 10, размещение 5, аэропорт 5;
-- comfort_score / comfort_rank - "комфортный характер": солнце 25,
+- comfort_score / comfort_rank - "отдых без лыж": солнце 25,
   питание 25, размещение 20, цена 15, аэропорт 15.
 
 ## Перевертыш рейтинга resort_scores_long.csv (416 x 8)
