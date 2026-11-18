@@ -42,8 +42,8 @@ prepared-таблицы -> витрина `data/mart/resort_features.csv` ->
 4. Информация о качестве данных
 * Дашборд ничего не считает сам - источники data/mart/resort_scores.csv и его перевертыш data/mart/resort_scores_long.csv для вкладки профиля, оба пересобираются конвейером.
 
-![Экран "Рейтинг"](assets/dashboard_rating_1.png)
 ![Экран "Рейтинг"](assets/dashboard_rating_2.png)
+![Экран "Рейтинг"](assets/dashboard_rating_1.png)
 
 ## Структура проекта
 
